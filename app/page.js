@@ -68,7 +68,7 @@ export default function Home() {
             </div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">Cultural Heritage</h3>
             <p className="text-gray-600">
-              Learn about the rich history and cultural significance of each dish from across Nigeria's diverse regions.
+              Learn about the rich history and cultural significance of each dish from across Nigeria&apos;s diverse regions.
             </p>
           </div>
 

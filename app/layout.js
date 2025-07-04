@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Link from 'next/link';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -66,18 +67,18 @@ export default function RootLayout({ children }) {
                 </div>
                 <div className="hidden md:block w-full md:w-auto">
                   <div className="flex items-center justify-center md:justify-end gap-6">
-                    <a href="/" className="text-gray-900 hover:text-green-600 px-4 py-2 rounded-md text-base font-medium transition-colors">
+                    <Link href="/" className="text-gray-900 hover:text-green-600 px-4 py-2 rounded-md text-base font-medium transition-colors">
                       Daily Suggestions
-                    </a>
-                    <a href="/dishes" className="text-gray-600 hover:text-green-600 px-4 py-2 rounded-md text-base font-medium transition-colors">
+                    </Link>
+                    <Link href="/dishes" className="text-gray-600 hover:text-green-600 px-4 py-2 rounded-md text-base font-medium transition-colors">
                       All Dishes
-                    </a>
-                    <a href="/tribes" className="text-gray-600 hover:text-green-600 px-4 py-2 rounded-md text-base font-medium transition-colors">
+                    </Link>
+                    <Link href="/tribes" className="text-gray-600 hover:text-green-600 px-4 py-2 rounded-md text-base font-medium transition-colors">
                       By Tribe
-                    </a>
-                    <a href="/about" className="text-gray-600 hover:text-green-600 px-4 py-2 rounded-md text-base font-medium transition-colors">
+                    </Link>
+                    <Link href="/about" className="text-gray-600 hover:text-green-600 px-4 py-2 rounded-md text-base font-medium transition-colors">
                       About
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="md:hidden w-full flex justify-center mt-2">
@@ -111,7 +112,7 @@ export default function RootLayout({ children }) {
                     🇳🇬 Nigerian Food Daily
                   </div>
                   <p className="text-gray-300 mb-6 max-w-md">
-                    Celebrating Nigeria's rich culinary heritage through authentic recipes and daily meal suggestions from all tribes and regions.
+                    Celebrating Nigeria&apos;s rich culinary heritage through authentic recipes and daily meal suggestions from all tribes and regions.
                   </p>
                   <p className="text-sm text-gray-400">
                     © 2024 Nigerian Food Daily. All rights reserved.
@@ -122,10 +123,10 @@ export default function RootLayout({ children }) {
                     Explore
                   </h3>
                   <ul className="space-y-3">
-                    <li><a href="/" className="text-gray-300 hover:text-white transition-colors">Daily Suggestions</a></li>
-                    <li><a href="/dishes" className="text-gray-300 hover:text-white transition-colors">All Dishes</a></li>
-                    <li><a href="/tribes" className="text-gray-300 hover:text-white transition-colors">By Tribe</a></li>
-                    <li><a href="/search" className="text-gray-300 hover:text-white transition-colors">Search</a></li>
+                    <li><Link href="/" className="text-gray-300 hover:text-white transition-colors">Daily Suggestions</Link></li>
+                    <li><Link href="/dishes" className="text-gray-300 hover:text-white transition-colors">All Dishes</Link></li>
+                    <li><Link href="/tribes" className="text-gray-300 hover:text-white transition-colors">By Tribe</Link></li>
+                    <li><Link href="/search" className="text-gray-300 hover:text-white transition-colors">Search</Link></li>
                   </ul>
                 </div>
                 <div className="flex flex-col items-center text-center">
@@ -133,10 +134,10 @@ export default function RootLayout({ children }) {
                     Nigerian Tribes
                   </h3>
                   <ul className="space-y-3">
-                    <li><a href="/tribes/yoruba" className="text-gray-300 hover:text-white transition-colors">Yoruba</a></li>
-                    <li><a href="/tribes/igbo" className="text-gray-300 hover:text-white transition-colors">Igbo</a></li>
-                    <li><a href="/tribes/hausa" className="text-gray-300 hover:text-white transition-colors">Hausa</a></li>
-                    <li><a href="/tribes/efik" className="text-gray-300 hover:text-white transition-colors">Efik</a></li>
+                    <li><Link href="/tribes/yoruba" className="text-gray-300 hover:text-white transition-colors">Yoruba</Link></li>
+                    <li><Link href="/tribes/igbo" className="text-gray-300 hover:text-white transition-colors">Igbo</Link></li>
+                    <li><Link href="/tribes/hausa" className="text-gray-300 hover:text-white transition-colors">Hausa</Link></li>
+                    <li><Link href="/tribes/efik" className="text-gray-300 hover:text-white transition-colors">Efik</Link></li>
                   </ul>
                 </div>
               </div>

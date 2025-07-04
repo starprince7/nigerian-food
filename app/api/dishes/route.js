@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { connectToDatabase } from '@/lib/mongodb';
 import Dish from '@/models/Dish';
-import { filterDishesByTribe, filterDishesByMealType, searchDishes, sortDishes } from '@/utils/dishUtils';
+// Removed unused helper imports to satisfy linter
 
 export async function GET(request) {
   try {
