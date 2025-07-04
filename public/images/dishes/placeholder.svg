@@ -1,0 +1,11 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#F3F4F6"/>
+  <circle cx="200" cy="120" r="40" fill="#E5E7EB"/>
+  <path d="M180 100 L220 100 L220 110 L210 110 L210 120 L220 120 L220 130 L210 130 L210 140 L180 140 L180 130 L190 130 L190 120 L180 120 L180 110 L190 110 L190 100 Z" fill="#9CA3AF"/>
+  <text x="200" y="180" text-anchor="middle" fill="#6B7280" font-family="Arial, sans-serif" font-size="16" font-weight="600">Nigerian Dish</text>
+  <text x="200" y="200" text-anchor="middle" fill="#9CA3AF" font-family="Arial, sans-serif" font-size="12">Image coming soon</text>
+  <rect x="50" y="220" width="60" height="8" rx="4" fill="#16A34A" opacity="0.3"/>
+  <rect x="120" y="220" width="80" height="8" rx="4" fill="#F59E0B" opacity="0.3"/>
+  <rect x="210" y="220" width="70" height="8" rx="4" fill="#EF4444" opacity="0.3"/>
+  <rect x="290" y="220" width="60" height="8" rx="4" fill="#3B82F6" opacity="0.3"/>
+</svg> 
